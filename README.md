@@ -27,7 +27,10 @@ cambia la palabra reservada de `let` por `const`.
 **NOTA**
 
 1. `var` sirve también para declarar funciones, la diferencia es el scope. 
-2. En Js puedes declarar variables sin ningún valor inicial. 
+2. En Js puedes declarar variables sin ningún valor inicial, estas variables
+toman el valor de `undefined`.
+3. Si declaras varias variables en una sola linea, tienes que usar `;` para
+separarlas. 
 
 ## Comentarios
 
