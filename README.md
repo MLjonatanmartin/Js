@@ -46,5 +46,26 @@ siempre en cada linea de código.
 
 ---
 
-# Calse #2 
-##
+# Clase #2 
+## Tipos de Datos En JavaScript
+
+En Js hay 10 tipos de datos, los primitivos y complejos.
+
+## Primitivos:
+
+1. String: es texto, se declara con comillas dobles o simples.
+2. Number: números. 
+3. Boolean: se declaran con `true` y `false`.
+4. Null: es un vacío, que no existe nada, se declara con `null`.
+5. Undefined: No definido, lo da js, se declara con `undefined`.
+6. Symbol: nos da un valor único, un ID único, se declara con `Symbol('value')`.
+7. BigInt: para números grandes, se declaran con el número y `n` al final. 
+
+## Complejos
+
+1. Funciones: se declaran con `function`.
+2. Objetos: Son diccionarios de Python, clave y valor, se declaran igual que Py.
+3. Listas: Lista, se declaran con `[]`.
+
+---
+# Clase #3
