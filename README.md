@@ -26,7 +26,7 @@ cambia la palabra reservada de `let` por `const`.
 
 **NOTA**
 
-1. `var` sirve también para declarar funciones, la diferencia es el scope. 
+1. `var` sirve también para declarar variables, la diferencia es el scope. 
 2. En Js puedes declarar variables sin ningún valor inicial, estas variables
 toman el valor de `undefined`.
 3. Si declaras varias variables en una sola linea, tienes que usar `;` para
@@ -69,3 +69,42 @@ En Js hay 10 tipos de datos, los primitivos y complejos.
 
 ---
 # Clase #3
+## Strings Básico
+
+Para manejar string podemos utilizar las siguientes cosas:
+
+## Concatenar:
+
+Para concatenar usa las comillas inversitas, dentro de ellas coloca el signo `$`
+y luego entre parentesis `{}` las variables:
+
+```javascript
+
+`${variable} texto ${variable}`
+
+```
+
+Otra manera de concatenar es usando el operador `+`, pero recuerda que tienes 
+que poner los espacios. 
+
+## Métodos 
+
+1. Para mirar la longitud de un string:
+
+`.length`
+
+2. Para colocar todo el string en minuscula:
+
+`.toLowerCase()`
+
+3. Para colocar todo el string en mayuscula:
+
+`toUpperCase()`
+
+4. Para acceder a un valor en especifico:
+
+`string[posicion]`
+
+---
+# Calse #4
+##
