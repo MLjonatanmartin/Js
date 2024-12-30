@@ -107,4 +107,65 @@ que poner los espacios.
 
 ---
 # Calse #4
-##
+## Números y Operadores Aritméticas
+
+Los números enteros y racionales en js son del mismo tipo sin niguna diferencia en
+el tipo de dato. 
+
+### Anotación Cientifica:
+
+Para poder declarar en js números cientificos utiliza la letra `e` después del 
+número:
+
+`let number = 6e`
+`let number1 = 0.3e-3`
+
+### Número Infinito
+
+Para hablar de un número infinito usa el método `Infity` para colocar un número
+infinito.
+
+### NAN Not a Number
+
+Para hacer No es un número declara lo `NaN`
+
+### Operadores aritméticos
+
+Los operados aritméticos en js son:
+
+1. `+` para sumar. 
+2. `-` para restar.
+3. `*` para multiplicar.
+4. `/` para dividir.
+5. `**` para potenciar.
+6. `%` para modulo. 
+
+### Presición
+
+En js hay un problema con la presición en las operaciones de los números racionales
+para gestionar eso se usa los métodos de:
+
+1. `.toFixed(digito)` Usa ese método e indicale el número de decimales que necesitas
+para poder hacer operaciones precisas con los decimales. Este método retorna un 
+string.
+
+Repasar más este tema de la precisión de Js.
+
+### Raíz cuadrada, valor Absoluto y valor Aleatorio
+
+Para conseguir la raiz cuadrada en js tienes que:
+
+`Math.sqrt(number)`
+
+Invoca la función math, coloca el método de sqrt y coloca el número para sacar 
+la raíz cuadrada. 
+
+
+Para saber el valor absolto:
+
+`Math.abs(number)`
+
+Para sacar el valor aleatorio:
+
+`Math.random()`
+
