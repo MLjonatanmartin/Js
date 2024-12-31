@@ -106,7 +106,7 @@ que poner los espacios.
 `string[posicion]`
 
 ---
-# Calse #4
+# Clase #4
 ## Números y Operadores Aritméticas
 
 Los números enteros y racionales en js son del mismo tipo sin niguna diferencia en
@@ -169,3 +169,41 @@ Para sacar el valor aleatorio:
 
 `Math.random()`
 
+---
+# Clase #5 
+
+## Conversiones y manejo de datos con Js
+
+Para convertir tipos de datos númericos usa `pars`:
+
+1. `parseInt()` para convertir a int. 
+2. `parseFloat()` para convertir a float.
+
+Es importanten tener en cuenta que Js, maneja el tipo de dato númerico para ambos
+casos. 
+
+Sin embargo, puedes convertir los datos de otra manera:
+
+1. `Number()` para convertir a un valor númerico. 
+2. `String()` para convertir a un valor de cadena de texto. 
+3. `Boolean()` para convertir a un valor boleano. 
+4. `Array.from()` para convertir las cosas a un array. 
+5. `Object()` para covertir las cosas a un objeto. 
+
+
+**NOTA**:
+
+1. Al convertir cosas puedes perder información, pierdes datos, es importante 
+saber y conocer uno que está haciendo y qué está convirtiendo.
+2. Errores, podemos tener errores con datos que no pueden convertir. 
+
+
+## Manejo de datos con Js
+
+Js, tiene una lógica bastante particular, si tratas de sumar datos hay dos cosas 
+que pueden pasar:
+
+1. Si hay un tipo de dato string, Js siempre va concatenar las cosas como un string.
+3. Si no hay un string, Js siempre va sumar las cosas como valor númerico.
+
+---
