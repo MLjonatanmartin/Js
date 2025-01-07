@@ -27,3 +27,9 @@ console.log(powerString, typeof powerString);
 ya que es un tema que no tengo claro. Por el momento queda pausado el tema de
 la conversión de datos.
 */
+
+// crear un ciclo que imprima los números del 1 al 100
+
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
